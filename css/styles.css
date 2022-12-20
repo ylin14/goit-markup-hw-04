@@ -1,0 +1,404 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-brand: #4D5AE5;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent:#E7E9FC;
+    --light: #F4F4FD;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
+
+.hero.dark, footer.dark {
+    background: var(--dark);
+}
+
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+body { 
+    font-family: Roboto, sans-serif;
+    color: var(--text);
+    letter-spacing: 0.02em;
+}
+
+.link-underline-none {
+    text-decoration: none;
+}
+.list-point-none {
+    list-style-type: none;
+}
+
+/* ------------STUDIO------------ */
+/* HEADER */
+
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header-flex {
+    display: flex;
+}
+
+.header-flex .navigation-list {
+    display: flex;
+}
+
+/* .header-paddings {
+    padding: 15px;
+} */
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+}
+
+.header-logo-web, .footer-logo-web {
+    color: var(--primary-brand);
+}
+
+.header-logo-studio {
+    color:var(--dark);
+}
+
+.navigation-list {
+    margin-left: 76px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.navigation-item {
+    
+}
+
+.navigation-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation-link {
+    color:var(--dark);
+}
+
+.navigation-link:hover, .navigation-link:focus {
+    color: var(--primary-brand)
+}
+.cotacts-list {
+    display: flex;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+.cotacts-item:nth-child(2n-1) {
+    margin-right: 40px;
+}
+
+.contacts-link {
+    color: var(--text);
+}
+
+.contacts-link:hover, .contacts-link:focus {
+    color: var(--primary-brand)
+}
+
+/* HERO */
+
+.hero.dark {
+    background: var(--dark);
+}
+
+.hero {
+    text-align: center;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+.hero-header {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+.hero-button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;    
+    color: #FFFFFF;
+    background-color: var(--primary-brand);
+    border:none;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* PRINCIPLES */
+
+.principles {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.principles-header {
+}
+.principles-list {
+    display: flex;
+}
+.principles-item {
+    width: 264px;
+}
+
+.principles-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.principles-item-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+.principles-item-paragraph {
+    font-size: 16px;
+    line-height: 1.2;
+
+    /* SERVICES */
+    
+}
+.services {
+    padding-bottom: 120px;
+}
+.services-header {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color:var(--dark);
+    text-align: center;
+
+}
+.services-list {
+    display: flex;
+    margin-top: 72px;
+}
+.services-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+/* TEAM */
+
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    background: var(--light);
+
+}
+.team-header {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color:var(--dark);
+    text-align: center;
+}
+.team-list {
+    display: flex;
+    margin-top: 72px;
+    text-align: center;
+
+}
+
+.team-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.team-item:not(:last-child) {
+    margin-right: 24px;
+}
+.team-item-header {
+    /* margin-top: 32px; */
+    margin-bottom: 8px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark);
+}
+.team-item-paragraph {
+    /* margin-bottom: 32px; */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.footer-logo-web {
+}
+.footer-logo-studio {
+    color: var(--light)
+}
+.footer-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 264px;
+    margin-top: 16px;
+    color:var(--accent)
+}
+
+/* ------------PORTFOLIO------------ */
+
+/* NAVIGATION */
+
+.navigation {
+    padding-top: 96px;
+    padding-bottom: 120px;
+    
+}
+.navigation-portf {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.navigation-portf > .item:not(:last-child) {
+    padding-right: 24px;
+}
+
+.navigation-button {
+    color: var(--primary-brand);
+    background-color: var(--light);
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 12px 24px;
+}
+
+.navigation-button:hover, .navigation-button:focus {
+    color: #FFFFFF;
+    background-color: var(--primary-brand);
+}
+ /* SERVICES */
+
+.portfolio-services {
+}
+.portf-serv-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+
+
+
+.portf-serv-item {
+    width: 360px;
+    border: 0.5px solid #F4F4FD;
+
+}
+
+.portf-serv-item:nth-child(3n) {
+    margin-right: calc(100%-2*24px)/3
+}
+
+.serv-text {
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: auto;
+    padding-left: 16px;
+}
+
+.portf-serv-link {
+}
+.portf-serv-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color:var(--dark);
+    margin-bottom: 8px;
+
+}
+.portf-serv-praragraph {
+    font-size: 16px;
+    line-height: 1.5;
+}
