@@ -42,7 +42,8 @@ html {
     outline: 1px solid red;
 }
 
-.hero.dark, footer.dark {
+.hero.dark, 
+footer.dark {
     background: var(--dark);
 }
 
@@ -95,10 +96,6 @@ header {
     display: flex;
 }
 
-/* .header-paddings {
-    padding: 15px;
-} */
-
 .header-logo {
     font-family: 'Raleway';
     font-weight: 800;
@@ -107,7 +104,8 @@ header {
     letter-spacing: 0.03em;
 }
 
-.header-logo-web, .footer-logo-web {
+.header-logo-web, 
+.footer-logo-web {
     color: var(--primary-brand);
 }
 
@@ -117,12 +115,10 @@ header {
 
 .navigation-list {
     margin-left: 76px;
+
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-}
-.navigation-item {
-    
 }
 
 .navigation-item:not(:last-child) {
@@ -133,12 +129,14 @@ header {
     color:var(--dark);
 }
 
-.navigation-link:hover, .navigation-link:focus {
+.navigation-link:hover, 
+.navigation-link:focus {
     color: var(--primary-brand)
 }
 .cotacts-list {
     display: flex;
     margin-left: auto;
+
     font-size: 16px;
     line-height: 1.5; 
 }
@@ -150,7 +148,8 @@ header {
     color: var(--text);
 }
 
-.contacts-link:hover, .contacts-link:focus {
+.contacts-link:hover, 
+.contacts-link:focus {
     color: var(--primary-brand)
 }
 
@@ -173,18 +172,19 @@ header {
     padding-bottom: 48px;
 }
 .hero-button {
+    padding: 16px 32px;
+    border:none;
+    border-radius: 4px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.18;    
+    line-height: 1.18;
+    letter-spacing: 0.04em;    
     color: #FFFFFF;
     background-color: var(--primary-brand);
-    border:none;
-    letter-spacing: 0.04em;
-    padding: 16px 32px;
-    border-radius: 4px;
 }
 
-.hero-button:hover, .hero-button:focus {
+.hero-button:hover, 
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -194,8 +194,7 @@ header {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.principles-header {
-}
+
 .principles-list {
     display: flex;
 }
@@ -217,25 +216,25 @@ header {
 .principles-item-paragraph {
     font-size: 16px;
     line-height: 1.2;
-
+}
     /* SERVICES */
     
-}
 .services {
     padding-bottom: 120px;
 }
 .services-header {
+    text-align: center;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     color:var(--dark);
-    text-align: center;
-
 }
+
 .services-list {
     display: flex;
     margin-top: 72px;
 }
+
 .services-item:not(:last-child) {
     margin-right: 24px;
 }
@@ -250,17 +249,17 @@ header {
 
 }
 .team-header {
+    text-align: center;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     color:var(--dark);
-    text-align: center;
 }
+
 .team-list {
     display: flex;
     margin-top: 72px;
     text-align: center;
-
 }
 
 .team-text {
@@ -273,11 +272,12 @@ header {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
+
 .team-item:not(:last-child) {
     margin-right: 24px;
 }
+
 .team-item-header {
-    /* margin-top: 32px; */
     margin-bottom: 8px;
 
     font-weight: 600;
@@ -286,7 +286,6 @@ header {
     color: var(--dark);
 }
 .team-item-paragraph {
-    /* margin-bottom: 32px; */
     font-size: 16px;
     line-height: 1.5;
 }
@@ -306,16 +305,17 @@ footer {
     line-height: 1.16;
     letter-spacing: 0.03em;
 }
-.footer-logo-web {
-}
+
 .footer-logo-studio {
     color: var(--light)
 }
+
 .footer-paragraph {
+    margin-top: 16px;
+    width: 264px;
+    
     font-size: 16px;
     line-height: 1.5;
-    width: 264px;
-    margin-top: 16px;
     color:var(--accent)
 }
 
@@ -340,19 +340,22 @@ footer {
 }
 
 .navigation-button {
-    color: var(--primary-brand);
-    background-color: var(--light);
+    padding: 12px 24px;
     border: none;
     border-radius: 4px;
+
+    color: var(--primary-brand);
+    background-color: var(--light);
     letter-spacing: 0.04em;
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    padding: 12px 24px;
+    
 }
 
-.navigation-button:hover, .navigation-button:focus {
+.navigation-button:hover, 
+.navigation-button:focus {
     color: #FFFFFF;
     background-color: var(--primary-brand);
 }
@@ -367,9 +370,6 @@ footer {
     row-gap: 48px;
 }
 
-
-
-
 .portf-serv-item {
     width: 360px;
     border: 0.5px solid #F4F4FD;
@@ -381,23 +381,20 @@ footer {
 }
 
 .serv-text {
-    
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: auto;
     padding-left: 16px;
 }
 
-.portf-serv-link {
-}
 .portf-serv-header {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color:var(--dark);
-    margin-bottom: 8px;
-
 }
+
 .portf-serv-praragraph {
     font-size: 16px;
     line-height: 1.5;
