@@ -156,7 +156,10 @@ header {
 /* HERO */
 
 .hero.dark {
-    background: var(--dark);
+    background-color: rgba(46, 47, 66, 0.5);
+    background-image: url(../images/people-office.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .hero {
