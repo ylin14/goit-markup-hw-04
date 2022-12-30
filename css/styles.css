@@ -216,11 +216,6 @@ header {
     border-radius: 4px;
     width: 264px;
     height: 112px
-
-}
-
-use {
-    display: block;
 }
 
 
@@ -315,6 +310,24 @@ use {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.social-icon {
+    list-style-type: none;
+    background-color: var(--primary-brand);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-list{
+    display: inline-flex;
+    column-gap: 24px;
+}
+
+use {
+    fill: var(--light);
+}
+
 
 /* FOOTER */
 
