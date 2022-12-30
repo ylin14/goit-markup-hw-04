@@ -156,8 +156,11 @@ header {
 /* HERO */
 
 .hero.dark {
-    background-color: rgba(46, 47, 66, 0.5);
-    background-image: url(../images/people-office.jpg);
+    background: var(--dark);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.5),
+        rgba(46, 47, 66, 0.5)
+    ), url(../images/people-office.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -193,6 +196,8 @@ header {
 
 /* PRINCIPLES */
 
+
+
 .principles {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -201,6 +206,25 @@ header {
 .principles-list {
     display: flex;
 }
+
+.principles-icon {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+
+    background: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px
+
+}
+
+use {
+    display: block;
+}
+
+
 .principles-item {
     width: 264px;
 }
