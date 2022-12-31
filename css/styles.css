@@ -207,23 +207,6 @@ header {
     padding-bottom: 120px;
 }
 
- .principles-icon-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-}
-
-.principles-icon {
-    padding-top: 24px;
-    padding-bottom: 24px;
-        
-
-    background: #F4F4FD;
-
-}
 
 .principles-list {
     display: flex;
@@ -236,6 +219,19 @@ header {
 .principles-item:not(:last-child) {
     margin-right: 24px;
 }
+
+.principles-icon {
+    display: flex;
+}
+
+.principles-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+
+}
+
 
 .principles-item-header {
     font-weight: 600;
@@ -280,6 +276,7 @@ header {
     background: var(--light);
 
 }
+
 .team-header {
     text-align: center;
     font-weight: 600;
@@ -327,12 +324,13 @@ header {
     margin-left: 16px;
     margin-right: 16px; 
 }
+
 .social-item {
     display: flex;
     list-style-type: none;
     column-gap: 24px;
-    justify-content: center;
 }
+
 .social-link {
     display: flex;
     justify-content: center;
@@ -342,6 +340,7 @@ header {
     width: 40px;
     height: 40px;
 }
+
 
 
 /* FOOTER */
