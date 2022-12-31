@@ -207,8 +207,13 @@ header {
     padding-bottom: 120px;
 }
 
-.principles-list {
+ .principles-icon-flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
 }
 
 .principles-icon {
@@ -217,11 +222,12 @@ header {
         
 
     background: #F4F4FD;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px
+
 }
 
+.principles-list {
+    display: flex;
+}
 
 .principles-item {
     width: 264px;
