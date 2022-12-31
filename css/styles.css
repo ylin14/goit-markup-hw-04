@@ -346,6 +346,26 @@ header {
 }
 
 
+/* CUSTOMERS */
+
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+.customers-list {
+    display: flex;
+}
+.customers-item {
+    list-style-type: none;
+}
+.customers-link {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 168px;
+    height: 88px;
+}
+.customers-icon {
+}
 
 /* FOOTER */
 
