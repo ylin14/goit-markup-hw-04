@@ -341,6 +341,10 @@ header {
     height: 40px;
 }
 
+.social-icon {
+    fill: var(--light);
+}
+
 
 
 /* FOOTER */
