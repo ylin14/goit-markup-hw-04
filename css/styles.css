@@ -267,7 +267,6 @@ header {
 /* TEAM */
 
 
-
 .team {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -318,14 +317,28 @@ header {
 }
 
 .social-list {
+    margin-left: 16px;
+    margin-right: 16px; 
 }
 .social-item {
+    display: flex;
+    list-style-type: none;
+    column-gap: 24px;
+    justify-content: center;
 }
-.team-link {
-}
-.team-icon {
+.social-link {
+    background: var(--primary-brand);
+    border-radius: 50%;
+  
 }
 
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.social-list {
+}
 
 
 /* FOOTER */
