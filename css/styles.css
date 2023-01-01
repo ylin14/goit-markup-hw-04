@@ -220,9 +220,7 @@ header {
     margin-right: 24px;
 }
 
-.principles-icon {
-    display: flex;
-}
+
 
 .principles-center {
     display: flex;
@@ -230,8 +228,24 @@ header {
     align-items: center;
     background-color: var(--light);
 
+    width: 264px;
+    height: 112px;
 }
 
+
+.principles-icon  {
+    display: flex;
+    align-content: center;
+    /* position: absolute; */
+
+    width: 60px;
+    height: 60px;
+
+}
+
+/* [use href] {
+    display: flex;
+} */
 
 .principles-item-header {
     font-weight: 600;
