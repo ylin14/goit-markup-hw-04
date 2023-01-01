@@ -233,20 +233,6 @@ header {
 }
 
 
-.principles-icon  {
-    display: flex;
-    align-content: center;
-    /* position: absolute; */
-
-    width: 60px;
-    height: 60px;
-
-}
-
-/* [use href] {
-    display: flex;
-} */
-
 .principles-item-header {
     font-weight: 600;
     font-size: 20px;
@@ -368,15 +354,20 @@ header {
 }
 .customers-list {
     display: flex;
+    column-gap: 24px;
 }
 .customers-item {
     list-style-type: none;
-}
-.customers-link {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
     width: 168px;
     height: 88px;
+}
+.customers-link {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .customers-icon {
 }
