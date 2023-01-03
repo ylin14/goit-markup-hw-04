@@ -162,8 +162,8 @@ header {
 .hero.dark {
     background: var(--dark);
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.5),
-        rgba(46, 47, 66, 0.5)
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
     ), url(../images/people-office.jpg);
     background-position: center;
     background-size: cover;
@@ -230,6 +230,8 @@ header {
     justify-content: center;
     align-items: center;
     background-color: var(--light);
+
+    margin-bottom: 8px;
 
     width: 264px;
     height: 112px;
@@ -348,6 +350,11 @@ header {
     fill: var(--light);
 }
 
+.social-link:hover,
+.social-link:focus {
+    background: #404BBF;
+}
+
 
 /* CUSTOMERS */
 
@@ -372,7 +379,11 @@ header {
     padding-top: 16px;
     padding-bottom: 16px;
 }
-.customers-icon {
+
+.customers-item:hover,
+.customers-item:focus {
+    fill: rgba(64, 75, 191, 1);
+    border: 1px solid rgba(64, 75, 191, 1);
 }
 
 /* FOOTER */
@@ -438,6 +449,11 @@ footer {
     column-gap: 16px;
 }
 
+.social-link-footer:focus,
+.social-link-footer:hover {
+    background: #31D0AA;
+}
+
 
 /* ------------PORTFOLIO------------ */
 
@@ -481,11 +497,6 @@ footer {
     border-radius: 4px;
 }
 
-.portf-serv-item:hover {
-    border: 1px solid #E7E9FC;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    cursor: pointer;
-}
 
  /* SERVICES */
 
@@ -501,7 +512,13 @@ footer {
 .portf-serv-item {
     width: 360px;
     border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
+.portf-serv-item:hover {
+    border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16);
+    cursor: pointer;
 }
 
 .portf-serv-item:nth-child(3n) {
