@@ -383,7 +383,8 @@ header {
 .customers-icon {
     fill: #AFB1B8;
 }
-.customers-link:hover .customers-icon {
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
     fill: var(--primary-brand);
 }
 
