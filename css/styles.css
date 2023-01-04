@@ -385,7 +385,7 @@ header {
 }
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-    fill: var(--primary-brand);
+    fill: #404BBF;
 }
 
 .customers-item:hover,
